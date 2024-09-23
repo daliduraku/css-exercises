@@ -43,11 +43,11 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
 }
 
 button {
@@ -75,8 +75,3 @@ button.cancel {
   gap: 8px;
 }
 
-.container1 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
